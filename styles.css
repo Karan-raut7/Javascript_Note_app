@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 30px;
+    background-color: indigo;
+}
+.note{
+    width:350px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+    overflow:hidden;   /* Important */
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+#title{
+    margin: 10px;;
+    padding:20px ;
+    text-align:center;
+    color:white;
+    background:rgb(27, 27, 56);
+    border-radius:29px;
+    font-size:28px;
+    font-weight:bold;
+    
+    
+    
+
+}
+#name {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn {
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
+#delete-btn{
+    padding: 12px;
+    width: 100%;
+}
+.edit-btn {
+    background: green;
+    color: white;
+}
