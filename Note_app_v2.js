@@ -50,6 +50,7 @@ function createNote(text) {
             if (text === "") {
                 return;
             }
+            notes.push(text);
             localStorage.setItem("notes", JSON.stringify(notes));
             
             displayNotes();
@@ -57,7 +58,7 @@ function createNote(text) {
         } else {
             let index = notes.findIndex(note => note === editingText);
             if (index !== -1){
-                notes[index] = input.value;
+                notes[index] = input.value.trim();
                 localStorage.setItem("notes",JSON.stringify(notes));
                 input.value = "";
                 displayNotes();
