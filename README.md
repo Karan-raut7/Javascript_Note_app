@@ -46,9 +46,9 @@ cd Javascript_Note_app
 No installation or dependencies are required.
 
 ## 📸 Screenshot
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/523b20e9-3365-46ce-9f37-b43f1a86dbc3" width="700" alt="Notes App Screenshot">
-</p>
+<p align="center"><img src="https://github.com/user-attachments/assets/8e94dd18-05ce-49e0-93bf-4c1f28435185" width="700" alt="JavaScript Notes App Screenshot" /></p>
+
+
 
 
 ## 🎯 What I Learned
