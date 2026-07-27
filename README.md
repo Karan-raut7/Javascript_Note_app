@@ -45,6 +45,9 @@ cd Javascript_Note_app
 
 No installation or dependencies are required.
 
+## 🌐 Live Demo
+🔗 https://karan-raut7.github.io/Javascript_Note_app/
+
 ## 📸 Screenshot
 <p align="center"><img src="https://github.com/user-attachments/assets/8e94dd18-05ce-49e0-93bf-4c1f28435185" width="700" alt="JavaScript Notes App Screenshot" /></p>
 
